@@ -243,26 +243,13 @@
         </L>
       </U>
     </V>
-    <V t="zone">
-      <U n="zone">
-        <V n="tooltip" t="enabled">
-          <T n="enabled">0x75BE432A<!--String: "The internet doesn't work off-the-grid."--></T>
-        </V>
-        <U n="zone_tests">
-          <V n="zone_modifiers" t="enabled">
-            <U n="enabled">
-              <V n="blacklist" t="specify">
-                <U n="specify">
-                  <L n="blacklist">
-                    <T>206665<!--ZoneModifier: zoneModifier_lotTrait_OffTheGrid--></T>
-                  </L>
-                </U>
-              </V>
-            </U>
-          </V>
-        </U>
-      </U>
-    </V>
   </L>
+  <V n="utility_info" t="enabled">
+    <L n="enabled">
+      <U>
+        <E n="key">POWER</E>
+      </U>
+    </L>
+  </V>
   <T n="time_overhead">30</T>
 </I>
