@@ -204,6 +204,19 @@
         </L>
       </U>
     </V>
+    <V t="trigger_reaction">
+      <U n="trigger_reaction">
+        <V n="optional_participant" t="enabled">
+          <E n="enabled">SavedActor2</E>
+        </V>
+        <V n="override_interaction_source" t="enabled">
+          <E n="enabled">PIE_MENU</E>
+        </V>
+        <T n="reaction_affordance">374758<!--SuperInteraction: mentor_Skill_Mischief--></T>
+        <T n="save_participants">True</T>
+        <V n="timing" t="at_beginning" />
+      </U>
+    </V>
   </L>
   <V n="canonical_animation" t="enabled">
     <U n="enabled">
@@ -328,6 +341,60 @@
     <E>Interaction_Lifestyles_Indoorsy_FlexibleLength</E>
     <E>Interaction_Lifestyles_Techie_FlexibleLength</E>
     <E>Interaction_Lifestyles_AdrenalineSeeker_Mundane</E>
+  </L>
+  <L n="joinable">
+    <U>
+      <V n="invite_available" t="enabled">
+        <U n="enabled">
+          <V n="loc_custom_invite_name" t="enabled">
+            <T n="enabled">0xF80506D0<!--String: "{0.String}"--></T>
+          </V>
+          <T n="use_proxied_affordance_name">True</T>
+        </U>
+      </V>
+      <V n="join_affordance" t="affordance">
+        <U n="affordance">
+          <V n="value" t="custom">
+            <T n="custom">374758<!--SuperInteraction: mentor_Skill_Mischief--></T>
+          </V>
+        </U>
+      </V>
+      <V n="join_available" t="enabled">
+        <U n="enabled">
+          <V n="loc_custom_join_name" t="enabled">
+            <T n="enabled">0xF80506D0<!--String: "{0.String}"--></T>
+          </V>
+        </U>
+      </V>
+      <E n="join_target">Actor</E>
+      <T n="link_joinable">True</T>
+    </U>
+    <U>
+      <V n="invite_available" t="enabled">
+        <U n="enabled">
+          <V n="loc_custom_invite_name" t="enabled">
+            <T n="enabled">0xF80506D0<!--String: "{0.String}"--></T>
+          </V>
+          <T n="use_proxied_affordance_name">True</T>
+        </U>
+      </V>
+      <V n="join_affordance" t="affordance">
+        <U n="affordance">
+          <V n="value" t="custom">
+            <T n="custom">374758<!--SuperInteraction: mentor_Skill_Mischief--></T>
+          </V>
+        </U>
+      </V>
+      <V n="join_available" t="enabled">
+        <U n="enabled">
+          <V n="loc_custom_join_name" t="enabled">
+            <T n="enabled">0xF80506D0<!--String: "{0.String}"--></T>
+          </V>
+        </U>
+      </V>
+      <E n="join_target">Actor</E>
+      <T n="link_joinable">True</T>
+    </U>
   </L>
   <L n="mood_list">
     <T>14632<!--Mood: Mood_Angry--></T>
